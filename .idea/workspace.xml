@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d76a43eb-c215-445a-847e-5ddef9e6175f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-shizhan/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/屏幕截图 2021-10-29 000439.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/Action/ActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/Action/FrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/Action/WinHandleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/JSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/UploadFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/CssSelectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/CssSelectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/XpathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/XpathTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/selenium-shizhan/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,63 +28,52 @@
     <session id="-1606048396">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="519" />
-          <entry key="xml" value="95" />
+          <entry key="java" value="3163" />
+          <entry key="txt" value="19" />
+          <entry key="xml" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="519" />
-          <entry key="XML" value="95" />
+          <entry key="JAVA" value="3163" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="XML" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="4" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="16" />
+          <entry key="xml" value="4" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="16" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/FluentWait.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1182">
-              <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/selenium-shizhan/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -90,9 +91,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/OpenBaidu.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/XpathTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/CssSelectorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/Action/ActionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/Action/WinHandleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/Action/FrameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/UploadFileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/JSTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java" />
       </list>
     </option>
   </component>
@@ -127,21 +136,15 @@
           <item name="selenium_lubo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="selenium_lubo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.seleniumhq.selenium:selenium-server:3.14.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
-    <option name="y" value="54" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1944" />
-    <option name="height" value="882" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -151,7 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,59 +165,29 @@
             <path>
               <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-shizhan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635354741840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635697576838" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium_lubo\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,38 +201,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WaitTest.openBaidu">
-    <configuration name="OpenBaidu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WechatTest.getCookies">
+    <configuration name="ActionTest.scrollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_lubo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.selenium.*" />
+          <option name="PATTERN" value="com.selenium.Action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.OpenBaidu" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenBaidu.openBaidu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_lubo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.OpenBaidu" />
-      <option name="METHOD_NAME" value="openBaidu" />
+      <option name="PACKAGE_NAME" value="com.selenium.Action" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.Action.ActionTest" />
+      <option name="METHOD_NAME" value="scrollTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest.openBaidu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JSTest.printDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_lubo" />
       <extension name="coverage">
         <pattern>
@@ -268,23 +227,75 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.WaitTest" />
-      <option name="METHOD_NAME" value="openBaidu" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.JSTest" />
+      <option name="METHOD_NAME" value="printDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFileTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_lubo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.UploadFileTest" />
+      <option name="METHOD_NAME" value="upload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WechatTest.getCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_lubo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.WechatTest" />
+      <option name="METHOD_NAME" value="getCookies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinHandleTest.registerAndLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_lubo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.Action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.Action" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.Action.WinHandleTest" />
+      <option name="METHOD_NAME" value="registerAndLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OpenBaidu" />
-      <item itemvalue="JUnit.OpenBaidu.openBaidu" />
-      <item itemvalue="JUnit.WaitTest.openBaidu" />
+      <item itemvalue="JUnit.ActionTest.scrollTest" />
+      <item itemvalue="JUnit.WinHandleTest.registerAndLogin" />
+      <item itemvalue="JUnit.JSTest.printDate" />
+      <item itemvalue="JUnit.UploadFileTest.upload" />
+      <item itemvalue="JUnit.WechatTest.getCookies" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WaitTest.openBaidu" />
-        <item itemvalue="JUnit.OpenBaidu.openBaidu" />
-        <item itemvalue="JUnit.OpenBaidu" />
+        <item itemvalue="JUnit.WechatTest.getCookies" />
+        <item itemvalue="JUnit.JSTest.printDate" />
+        <item itemvalue="JUnit.UploadFileTest.upload" />
+        <item itemvalue="JUnit.WinHandleTest.registerAndLogin" />
+        <item itemvalue="JUnit.ActionTest.scrollTest" />
       </list>
     </recent_temporary>
   </component>
@@ -299,68 +310,86 @@
       <option name="presentableId" value="Default" />
       <updated>1635341394676</updated>
       <workItem from="1635341399166" duration="276000" />
-      <workItem from="1635341703812" duration="4719000" />
+      <workItem from="1635341703812" duration="4972000" />
+      <workItem from="1635429219571" duration="2811000" />
+      <workItem from="1635518942038" duration="4995000" />
+      <workItem from="1635568731675" duration="6671000" />
+      <workItem from="1635648228627" duration="6178000" />
     </task>
+    <task id="LOCAL-00001" summary="css，xpath定位">
+      <created>1635439428074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635439428074</updated>
+    </task>
+    <task id="LOCAL-00002" summary="selenium">
+      <created>1635697325890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635697325890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 37m 17s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="UploadFileTest_upload - 2021.10.30 at 23h 06m 36s.xml">
+      <configuration name="UploadFileTest.upload" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 41m 22s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="JSTest_printDate - 2021.10.31 at 11h 00m 42s.xml">
+      <configuration name="JSTest.printDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 41m 45s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="JSTest_printDate - 2021.10.31 at 11h 01m 55s.xml">
+      <configuration name="JSTest.printDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 42m 48s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 22h 38m 51s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 43m 13s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 22h 52m 35s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 43m 35s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 22h 54m 00s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OpenBaidu_openBaidu - 2021.10.28 at 00h 46m 17s.xml">
-      <configuration name="OpenBaidu.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 23h 14m 22s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WaitTest_openBaidu - 2021.10.28 at 01h 04m 53s.xml">
-      <configuration name="WaitTest.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 23h 14m 42s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WaitTest_openBaidu - 2021.10.28 at 01h 05m 35s.xml">
-      <configuration name="WaitTest.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 23h 15m 11s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WaitTest_openBaidu - 2021.10.28 at 01h 08m 53s.xml">
-      <configuration name="WaitTest.openBaidu" configurationId="JUnit" />
+    <history-entry file="WechatTest_getCookies - 2021.10.31 at 23h 28m 38s.xml">
+      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4995000" />
+    <option name="totallyTimeSpent" value="25903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2700081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39609236" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.35523978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004042" side_tool="true" weight="0.35523978" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -378,29 +407,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java</url>
-          <line>34</line>
-          <properties class="com.selenium.WaitTest" method="openBaidu">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="css，xpath定位" />
+    <MESSAGE value="selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/OpenBaidu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -411,24 +423,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/FluentWait.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1182">
+        <state relative-caret-position="19">
           <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/WaitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/LocationMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/XpathTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/CssSelectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/interactions/Actions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/Action/WinHandleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/Action/FrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/Action/ActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="15" column="14" selection-start-line="11" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/UploadFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/JSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-shizhan/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
