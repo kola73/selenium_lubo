@@ -34,7 +34,7 @@ public class WechatTest {
         Set<Cookie> cookie = driver.manage().getCookies();
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 //        Thread.sleep(15000);
-        mapper.writeValue(new File("/cookies.yaml"), cookie);
+        mapper.writeValue(new File("cookies.yaml"), cookie);
         // 读取cookies
         TypeReference typeReference = new TypeReference<List<HashMap<String, Object>>>() {
         };
