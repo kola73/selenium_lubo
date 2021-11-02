@@ -38,7 +38,7 @@ public class WechatTest {
         // 读取cookies
         TypeReference typeReference = new TypeReference<List<HashMap<String, Object>>>() {
         };
-        List<HashMap<String, Object>> cookies = mapper.readValue(new File("cookies.yaml"), typeReference);
+        List<HashMap<String, Object>> cookies = mapper.readValue(new File("/cookies.yaml"), typeReference);
         System.out.println(cookies);
         cookies.forEach(cookieMap -> {
             driver.manage().addCookie
