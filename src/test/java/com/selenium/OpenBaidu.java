@@ -9,6 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.StringContains.containsString;
+
 public class OpenBaidu {
     public static WebDriver driver;
 
@@ -22,9 +26,13 @@ public class OpenBaidu {
     @Test
     public void openBaidu() throws InterruptedException {
         driver.get("https://www.baidu.com");
+        String text = driver.findElement(By.xpath("//div[@id=\"s-hotsearch-wrapper\"]//span[@class=\"title-content-title\"]")).getText();
+//        System.out.println(text);
+        assertThat(text,containsString("阿富汗"));
     }
+
     @AfterAll
-    static void close(){
+    static void close() {
         driver.quit();
     }
 }
