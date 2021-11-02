@@ -35,9 +35,9 @@ public class Wework {
         TypeReference<List<HashMap<String, Object>>> typeReference = new TypeReference<List<HashMap<String, Object>>>() {
         };
         List<HashMap<String, Object>> cookies = null;
+        System.out.println(objectMapper);
+        System.out.println(this.getClass().getResource("/cookies.yaml").getPath());
         try {
-            System.out.println(objectMapper);
-            System.out.println(this.getClass().getResource("/cookies.yaml").getPath());
             cookies = objectMapper.readValue(
                     this.getClass().getResource("/cookies.yaml"),
                     typeReference);
@@ -45,12 +45,12 @@ public class Wework {
             e.printStackTrace();
         }
 
-        driver.get("https://work.weixin.qq.com/wework_admin/frame");
+        driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_openApi");
         cookies.forEach(cookie -> {
             driver.manage().addCookie(new Cookie(cookie.get("name").toString(), cookie.get("value").toString()));
         });
 
-        driver.navigate().refresh();
+//        driver.navigate().refresh();
 
 
     }

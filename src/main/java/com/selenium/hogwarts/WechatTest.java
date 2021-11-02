@@ -1,4 +1,4 @@
-package com.selenium;
+package com.selenium.hogwarts;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -12,7 +12,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class WechatTest {
@@ -30,15 +32,18 @@ public class WechatTest {
     void getCookies() throws IOException, InterruptedException {
         // 录网页获取cookie，并存到yaml文件里
         driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_openApi");
-        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
         Set<Cookie> cookie = driver.manage().getCookies();
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 //        Thread.sleep(15000);
-        mapper.writeValue(new File("/cookies.yaml"), cookie);
+        mapper.writeValue(new File("D:/selenium_lubo/src/main/resources/cookies.yaml"), cookie);
         // 读取cookies
         TypeReference typeReference = new TypeReference<List<HashMap<String, Object>>>() {
         };
-        List<HashMap<String, Object>> cookies = mapper.readValue(new File("cookies.yaml"), typeReference);
+        List<HashMap<String, Object>> cookies = mapper.readValue(
+                this.getClass().getResource("D:/selenium_lubo/src/main/resources/cookies.yaml"),
+                typeReference);
+        ;
         System.out.println(cookies);
         cookies.forEach(cookieMap -> {
             driver.manage().addCookie

@@ -1,6 +1,6 @@
 ---
 - name: "wwrtx.refid"
-  value: "34074993651715409"
+  value: "3407499365135128"
   path: "/"
   domain: ".work.weixin.qq.com"
   expiry: null
@@ -10,14 +10,14 @@
   value: "0"
   path: "/"
   domain: ".work.weixin.qq.com"
-  expiry: 1667230114000
+  expiry: 1667409747000
   httpOnly: false
   secure: false
 - name: "wwrtx.i18n_lan"
   value: "zh"
   path: "/"
   domain: ".work.weixin.qq.com"
-  expiry: 1638286116000
+  expiry: 1638465748000
   httpOnly: false
   secure: false
 - name: "wwrtx.ref"

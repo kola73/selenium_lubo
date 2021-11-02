@@ -13,7 +13,7 @@ public class ContactPage extends BasePage {
     }
 
     // 添加联系人
-    public ContactPage addMember(String name, String phone, String account) {
+    public ContactPage addMember(String account, String name,String phone) {
         driver.findElement(By.linkText("添加成员")).click();
         driver.findElement(By.name("username")).sendKeys(name);
         driver.findElement(By.name("acctid")).sendKeys(account);
@@ -30,9 +30,12 @@ public class ContactPage extends BasePage {
 
     // 获得当前用户列表
     public List<String> getCurrentMember() {
-        List<String> user = new ArrayList<>();
-        user.add("xxx");
-        return user;
+        List<String> users = new ArrayList<>();
+        driver.findElements(By.cssSelector("#member_list td:nth-child(2) > span")).forEach(e->{
+            users.add(e.getText());
+        });
+
+        return users;
     }
 
 }

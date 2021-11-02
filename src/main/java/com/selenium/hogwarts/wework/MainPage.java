@@ -21,8 +21,10 @@ public class MainPage extends BasePage {
     }
 
     // 跳到通讯录
-    public ContactPage goToContact() {
+    ContactPage goToContact() {
         driver.findElement(By.linkText("通讯录")).click();
         return new ContactPage(driver);
+
+
     }
 }

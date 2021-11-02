@@ -1,10 +1,10 @@
-package com.selenium.wework;
+package com.selenium.hogwarts.wework;
 
-import com.selenium.hogwarts.wework.ContactPage;
-import com.selenium.hogwarts.wework.MainPage;
-import com.selenium.hogwarts.wework.Wework;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
@@ -24,7 +24,13 @@ public class AddUserTest {
 
     @Test
     void addUserTest() {
-        List<String> user = contactPage.addMember("李宇春", "18911111111", "32453").getCurrentMember();
-        assertThat(user, hasItem("122"));
+        List<String> user = contactPage.addMember("23444", "林俊杰", "18911111111").getCurrentMember();
+        assertThat(user, hasItem("18911111111"));
+    }
+
+    @AfterAll
+    static void close() {
+        WebDriver driver = new ChromeDriver();
+        driver.quit();
     }
 }
