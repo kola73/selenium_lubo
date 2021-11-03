@@ -3,8 +3,6 @@ package com.selenium.hogwarts.wework;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
@@ -28,9 +26,4 @@ public class AddUserTest {
         assertThat(user, hasItem("18911111111"));
     }
 
-    @AfterAll
-    static void close() {
-        WebDriver driver = new ChromeDriver();
-        driver.quit();
-    }
 }

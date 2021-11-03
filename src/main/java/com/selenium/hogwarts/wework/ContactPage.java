@@ -24,7 +24,7 @@ public class ContactPage extends BasePage {
     }
 
     // 导入功能
-    public ContactPage export() {
+    public ContactPage export(String path) {
         return this;
     }
 

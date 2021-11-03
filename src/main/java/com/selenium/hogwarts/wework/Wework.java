@@ -30,28 +30,32 @@ public class Wework {
     }
 
     // 加载cookie
-    void loadCookie(){
+    void loadCookie() {
+//        driver.get("https://work.weixin.qq.com/wework_admin/frame");
         ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
         TypeReference<List<HashMap<String, Object>>> typeReference = new TypeReference<List<HashMap<String, Object>>>() {
         };
         List<HashMap<String, Object>> cookies = null;
-        System.out.println(objectMapper);
-        System.out.println(this.getClass().getResource("/cookies.yaml").getPath());
         try {
+            System.out.println(objectMapper);
+            System.out.println(this.getClass().getResource("/cookie.yaml").getPath());
             cookies = objectMapper.readValue(
-                    this.getClass().getResource("/cookies.yaml"),
+                    this.getClass().getResource("/cookie.yaml"),
                     typeReference);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_openApi");
+        driver.get("https://work.weixin.qq.com/wework_admin/frame");
         cookies.forEach(cookie -> {
             driver.manage().addCookie(new Cookie(cookie.get("name").toString(), cookie.get("value").toString()));
         });
 
 //        driver.navigate().refresh();
 
-
     }
+
+
+//        driver.navigate().refresh();
+
+
 }

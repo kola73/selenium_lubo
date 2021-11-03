@@ -1,4 +1,4 @@
-package com.selenium;
+package com.selenium.common;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
