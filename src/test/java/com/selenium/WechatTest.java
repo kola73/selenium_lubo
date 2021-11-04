@@ -30,20 +30,18 @@ public class WechatTest {
     void getCookies() throws IOException, InterruptedException {
         // 录网页获取cookie，并存到yaml文件里
         driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_openApi");
+        Thread.sleep(10000);
         driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
-        Set<Cookie> cookie = driver.manage().getCookies();
+        Set<Cookie> cookies = driver.manage().getCookies();
+        driver.navigate().refresh();
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 //        Thread.sleep(15000);
-        mapper.writeValue(new File("cookie.yaml"), cookie);
+        mapper.writeValue(new File("cookie.yaml"), cookies);
         // 读取cookies
-        TypeReference typeReference = new TypeReference<List<HashMap<String, Object>>>() {
-        };
-        List<HashMap<String, Object>> cookies = mapper.readValue(new File("cookie.yaml"), typeReference);
-        System.out.println(cookies);
-        cookies.forEach(cookieMap -> {
-            driver.manage().addCookie
-                    (new Cookie(cookieMap.get("name").toString(), cookieMap.get("value").toString()));
-        });
+       cookies.forEach(cookie -> {
+           System.out.println(cookie.getName());
+           System.out.println(cookie.getValue());
+       });
         driver.navigate().refresh();
     }
 

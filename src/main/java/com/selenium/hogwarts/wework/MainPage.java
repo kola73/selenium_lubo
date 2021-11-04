@@ -22,6 +22,11 @@ public class MainPage extends BasePage {
 
     // 跳到通讯录
     ContactPage goToContact() {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         driver.findElement(By.linkText("通讯录")).click();
         return new ContactPage(driver);
 

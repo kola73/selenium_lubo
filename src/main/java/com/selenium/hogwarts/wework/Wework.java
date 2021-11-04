@@ -20,7 +20,8 @@ public class Wework {
     void start() {
         driver = new ChromeDriver();
         loadCookie();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        System.out.println("cookie------");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
 
@@ -37,7 +38,7 @@ public class Wework {
         };
         List<HashMap<String, Object>> cookies = null;
         try {
-            System.out.println(objectMapper);
+//            System.out.println(objectMapper);
             System.out.println(this.getClass().getResource("/cookie.yaml").getPath());
             cookies = objectMapper.readValue(
                     this.getClass().getResource("/cookie.yaml"),
@@ -48,9 +49,12 @@ public class Wework {
         driver.get("https://work.weixin.qq.com/wework_admin/frame");
         cookies.forEach(cookie -> {
             driver.manage().addCookie(new Cookie(cookie.get("name").toString(), cookie.get("value").toString()));
+            System.out.println(cookie.get("name").toString());
+            System.out.println(cookie.get("value").toString());
         });
-
-//        driver.navigate().refresh();
+        System.out.println("-----------");
+        System.out.println(driver.manage().getCookies());
+        driver.navigate().refresh();
 
     }
 

@@ -22,7 +22,7 @@ public class AddUserTest {
 
     @Test
     void addUserTest() {
-        List<String> user = contactPage.addMember("23444", "林俊杰", "18911111111").getCurrentMember();
+        List<String> user = contactPage.addMember("234944", "周杰伦", "18911111112").getCurrentMember();
         assertThat(user, hasItem("18911111111"));
     }
 
