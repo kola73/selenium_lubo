@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d76a43eb-c215-445a-847e-5ddef9e6175f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/DelUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/ExportTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cookie.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/ContactPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Wework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Wework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com.selenium.hofwarts.wework/cookie.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cookie.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cookie.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cookie.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/common/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/common/WaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/AddUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.selenium.hofwarts.wework/cookie.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/wework/Wework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/wework/Wework.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cookie.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cookie.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/WechatTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/PO_Mode/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/PO_Mode/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/wework/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/wework/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/wework/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/hogwarts/wework/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cookie.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/WechatTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/selenium/WechatTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/common/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/selenium/common/WaitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/hogwarts/wework/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/selenium/hogwarts/wework/AddUserTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,27 +35,30 @@
     <session id="-1606048396">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="5207" />
+          <entry key="java" value="6263" />
           <entry key="txt" value="42" />
           <entry key="xml" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5207" />
+          <entry key="JAVA" value="6263" />
           <entry key="PLAIN_TEXT" value="62" />
           <entry key="XML" value="117" />
         </counts>
@@ -57,17 +66,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="131" />
+          <entry key="java" value="212" />
           <entry key="xml" value="6" />
-          <entry key="yaml" value="30" />
+          <entry key="yaml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="131" />
+          <entry key="JAVA" value="212" />
           <entry key="XML" value="6" />
-          <entry key="YAML" value="30" />
+          <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
     </session>
@@ -75,14 +84,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/ExportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="380">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/ContactPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="49" column="48" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="49" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,21 +139,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/originDemo/OpenBaidu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/originDemo/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zhibo/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Start.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/wework/AddUserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/WechatTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/ContactPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/AddUserTest.java" />
         <option value="$PROJECT_DIR$/cookie.yaml" />
         <option value="$PROJECT_DIR$/src/main/resources/com.selenium.hofwarts.wework/cookie.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Wework.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cookie.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/DelUserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/WeWork.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework2/ContactTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/AddUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/common/WaitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Wework.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/ExportTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/ContactPage.java" />
       </list>
     </option>
   </component>
@@ -178,9 +205,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="18" />
     <option name="width" value="1944" />
     <option name="height" value="1044" />
   </component>
@@ -192,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +282,17 @@
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
               <item name="wework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="wework2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
@@ -323,19 +362,39 @@
               <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
               <item name="wework" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="wework2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium_lubo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_lubo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636041606128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636302570509" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/java6-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -346,9 +405,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\selenium_lubo\src\main\resources" />
-      <recent name="D:\selenium_lubo\src\main\resources\com.selenium.hofwarts.wework" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhibo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.selenium.hogwarts" />
@@ -364,8 +422,9 @@
       <recent name="com.selenium.hogwarts" />
       <recent name="com.selenium.hogwarts.originDemo" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zhibo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\selenium_lubo\src\main\resources" />
+      <recent name="D:\selenium_lubo\src\main\resources\com.selenium.hofwarts.wework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,21 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddUserTest.addUserTest">
-    <configuration name="AddUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_lubo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.hogwarts.wework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.selenium.hogwarts.wework" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.hogwarts.wework.AddUserTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExportTest.export">
     <configuration name="AddUserTest.addUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_lubo" />
       <extension name="coverage">
@@ -411,6 +456,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DelUserTest.delUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_lubo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.hogwarts.wework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.hogwarts.wework" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.hogwarts.wework.DelUserTest" />
+      <option name="METHOD_NAME" value="delUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExportTest.export" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_lubo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.hogwarts.wework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.hogwarts.wework" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.hogwarts.wework.ExportTest" />
+      <option name="METHOD_NAME" value="export" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WechatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_lubo" />
       <extension name="coverage">
@@ -421,22 +498,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.selenium" />
       <option name="MAIN_CLASS_NAME" value="com.selenium.WechatTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WechatTest.getCookies (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_lubo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.hogwarts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.selenium.hogwarts" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.hogwarts.WechatTest" />
-      <option name="METHOD_NAME" value="getCookies" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -460,17 +521,17 @@
     <list>
       <item itemvalue="JUnit.AddUserTest.addUserTest" />
       <item itemvalue="JUnit.WechatTest.getCookies" />
-      <item itemvalue="JUnit.WechatTest.getCookies (1)" />
-      <item itemvalue="JUnit.AddUserTest" />
       <item itemvalue="JUnit.WechatTest" />
+      <item itemvalue="JUnit.DelUserTest.delUser" />
+      <item itemvalue="JUnit.ExportTest.export" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExportTest.export" />
         <item itemvalue="JUnit.AddUserTest.addUserTest" />
-        <item itemvalue="JUnit.WechatTest" />
         <item itemvalue="JUnit.WechatTest.getCookies" />
-        <item itemvalue="JUnit.AddUserTest" />
-        <item itemvalue="JUnit.WechatTest.getCookies (1)" />
+        <item itemvalue="JUnit.DelUserTest.delUser" />
+        <item itemvalue="JUnit.WechatTest" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +555,10 @@
       <workItem from="1635861253469" duration="9636000" />
       <workItem from="1635873802773" duration="48000" />
       <workItem from="1635948488354" duration="6838000" />
-      <workItem from="1636028057299" duration="5233000" />
+      <workItem from="1636028057299" duration="6886000" />
+      <workItem from="1636122827872" duration="635000" />
+      <workItem from="1636210686509" duration="3592000" />
+      <workItem from="1636287585986" duration="7630000" />
     </task>
     <task id="LOCAL-00001" summary="css，xpath定位">
       <created>1635439428074</created>
@@ -528,45 +592,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 21h 42m 34s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 07m 34s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 21h 43m 50s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 08m 37s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WechatTest_getCookies - 2021.11.04 at 21h 46m 57s.xml">
-      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 10m 33s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WechatTest_getCookies - 2021.11.04 at 21h 47m 37s.xml">
-      <configuration name="WechatTest.getCookies" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 13m 00s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WechatTest - 2021.11.04 at 21h 48m 11s.xml">
-      <configuration name="WechatTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 17m 09s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 21h 48m 47s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 20m 56s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 21h 53m 08s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 22m 02s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 22h 54m 46s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 24m 17s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 23h 39m 07s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 25m 03s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_addUserTest - 2021.11.04 at 23h 39m 24s.xml">
-      <configuration name="AddUserTest.addUserTest" configurationId="JUnit" />
+    <history-entry file="ExportTest_export - 2021.11.08 at 00h 25m 55s.xml">
+      <configuration name="ExportTest.export" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54684000" />
+    <option name="totallyTimeSpent" value="68194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="1" width="1296" height="696" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29321486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30800325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,7 +639,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.4397163" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.37300178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,7 +648,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004042" side_tool="true" weight="0.35523978" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.37833038" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3268206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -608,18 +672,6 @@
     <MESSAGE value="selenium 实战" />
     <MESSAGE value="企业微信实战-1" />
     <option name="LAST_COMMIT_MESSAGE" value="企业微信实战-1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/MainPage.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/FluentWait.class">
@@ -666,31 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/SearchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/originDemo/SearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -717,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/common/WaitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/common/XpathTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -735,16 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhibo/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -754,67 +768,180 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/cookies.yaml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.selenium.hofwarts.wework/cookies.yaml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="1" selection-end-line="65" selection-end-column="17" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/AddUserTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com.selenium.hofwarts.wework/cookie.yaml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.selenium.hofwarts.wework/cookie.yaml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/SearchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cookie.yaml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookie.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="113" lean-forward="true" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cookie.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Wework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="304">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhibo/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/PO_Mode/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework2/ContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework2/WeWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/common/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/DelUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/WechatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="66" lean-forward="true" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        <state relative-caret-position="206">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cookie.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/AddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/Wework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -823,32 +950,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="119">
+          <caret line="49" column="48" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="49" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/AddUserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/hogwarts/wework/ExportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="380">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/hogwarts/wework/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
           </folding>
         </state>
       </provider>

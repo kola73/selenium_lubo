@@ -4,9 +4,11 @@ package com.selenium.hogwarts.wework;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
     final WebDriver driver;
+    final WebDriverWait wait = null;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -32,5 +34,6 @@ public class BasePage {
     public void sendKeys() {
 
     }
+   
 
 }

@@ -29,9 +29,8 @@ public class WechatTest {
      */
     void getCookies() throws IOException, InterruptedException {
         // 录网页获取cookie，并存到yaml文件里
-        driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_openApi");
-        Thread.sleep(10000);
-        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+        driver.get("https://work.weixin.qq.com/wework_admin/frame");
+        Thread.sleep(20000);
         Set<Cookie> cookies = driver.manage().getCookies();
         driver.navigate().refresh();
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());

@@ -14,6 +14,7 @@ public class AddUserTest {
     private static ContactPage contactPage;
 
     @BeforeAll
+    // todo：清数据（不建议在teardown清理数据，因为测试执行一旦有问题，这个是不执行的）
     static void before() {
         mainPage = new Wework().defaultPage();
         contactPage = mainPage.goToContact();

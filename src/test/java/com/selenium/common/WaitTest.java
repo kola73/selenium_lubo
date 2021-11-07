@@ -39,11 +39,11 @@ public class WaitTest {
         // 两种写法：
         // 方法1，
         // 看到登录按钮就点击
-//        WebElement loginEle = wait.until(new ExpectedCondition<WebElement>() {
-//            public WebElement apply(WebDriver webDriver) {
-//                return driver.findElement(By.id("s-top-loginbtn"));
-//            }
-//        });
+        WebElement loginEle = wait.until(new ExpectedCondition<WebElement>() {
+            public WebElement apply(WebDriver webDriver) {
+                return driver.findElement(By.id("s-top-loginbtn"));
+            }
+        });
 //        loginEle.click();
         // 方法2
         WebElement loginbtn=wait.until(ExpectedConditions.elementToBeClickable(By.id("s-top-loginbtn")));

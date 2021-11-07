@@ -21,7 +21,7 @@ public class MainPage {
     }
 
     public SearchPage search(String keyword) {
-        driver.findElement(By.id("kw")).sendKeys(keyword);
+        driver.findElement(inputBox).sendKeys(keyword);
         driver.findElement(clickBtn).click();
         return new SearchPage(driver);
     }

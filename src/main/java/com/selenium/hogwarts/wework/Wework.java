@@ -22,6 +22,7 @@ public class Wework {
         loadCookie();
         System.out.println("cookie------");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
     }
 
