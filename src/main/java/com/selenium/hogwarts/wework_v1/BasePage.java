@@ -1,4 +1,4 @@
-package com.selenium.hogwarts.wework;
+package com.selenium.hogwarts.wework_v1;
 
 
 import org.openqa.selenium.By;

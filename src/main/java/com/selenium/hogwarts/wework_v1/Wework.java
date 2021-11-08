@@ -1,4 +1,4 @@
-package com.selenium.hogwarts.wework;
+package com.selenium.hogwarts.wework_v1;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

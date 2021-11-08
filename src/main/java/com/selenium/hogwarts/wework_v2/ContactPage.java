@@ -1,27 +1,30 @@
-package com.selenium.hogwarts.wework;
+package com.selenium.hogwarts.wework_v2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
 
 // 通讯录页面
 public class ContactPage extends BasePage {
+    private final By addMembers = By.linkText("添加成员");
+    private final By username = By.name("username");
+    private final By accounts = By.name("acctid");
+    private final By mobile = By.name("mobile");
+    private final By save = By.linkText("保存");
+
     public ContactPage(WebDriver driver) {
         super(driver);
     }
 
     // 添加联系人
     public ContactPage addMember(String account, String name, String phone) {
-        driver.findElement(By.linkText("添加成员")).click();
-        driver.findElement(By.name("username")).sendKeys(name);
-        driver.findElement(By.name("acctid")).sendKeys(account);
-        driver.findElement(By.name("mobile")).sendKeys(phone);
-        driver.findElement(By.linkText("保存")).click();
+        find(addMembers).click();
+        find(username).sendKeys(name);
+        find(accounts).sendKeys(account);
+        find(mobile).sendKeys(phone);
+        find(save).click();
         return this;
 
     }
